@@ -5,12 +5,11 @@ Machine Learning Based IOT Botnet Detection is a tool to classify network traffi
 
 This project implements a novel method to detect botnet based network intrusion using various Machine Learning based classifiers. Unlike traditional methods based on packet analysis which are inaccurate and time-consuming, this method is robust and highly accurate. This project involves the following machine learning classifiers:
 
-1. Neural Networks
-2. Decision Tree
-3. Logistic Regression
-4. Random Forest
-5. Gaussian Naive Bayes
-6. K Nearest Neighbours.
+1. Decision Tree
+2. Logistic Regression
+3. Random Forest
+4. Gaussian Naive Bayes
+5. K Nearest Neighbours.
 
 <b> Dataset Used </b>
 
