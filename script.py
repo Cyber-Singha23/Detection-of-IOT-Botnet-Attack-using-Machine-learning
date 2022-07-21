@@ -19,15 +19,15 @@ def load_data():
     path = "dataset/"
     benign = pd.read_csv(path + "benign_traffic.csv")
 
-    mirai_scan = pd.read_csv(path + "scan1.csv").head(20000)
-    mirai_syn = pd.read_csv(path + "syn.csv").head(20000)
-    mirai_ack = pd.read_csv(path + "ack.csv").head(20000)
-    mirai_udp = pd.read_csv(path + "udp1.csv").head(20000)
-    mirai_udpplain = pd.read_csv(path + "udpplain.csv").head(20000)
-    gafgyt_junk = pd.read_csv(path + "junk.csv").head(20000)
-    gafgyt_scan = pd.read_csv(path + "scan.csv").head(20000)
-    gafgyt_tcp = pd.read_csv(path + "tcp.csv").head(20000)
-    gafgyt_udp = pd.read_csv(path + "udp.csv").head(20000)
+    mirai_scan = pd.read_csv(path + "scan1.csv")
+    mirai_syn = pd.read_csv(path + "syn.csv")
+    mirai_ack = pd.read_csv(path + "ack.csv")
+    mirai_udp = pd.read_csv(path + "udp1.csv")
+    mirai_udpplain = pd.read_csv(path + "udpplain.csv")
+    gafgyt_junk = pd.read_csv(path + "junk.csv")
+    gafgyt_scan = pd.read_csv(path + "scan.csv")
+    gafgyt_tcp = pd.read_csv(path + "tcp.csv")
+    gafgyt_udp = pd.read_csv(path + "udp.csv")
 
     malicious_gafgyt_list = [gafgyt_junk, gafgyt_scan, gafgyt_tcp, gafgyt_udp]
     malicious_mirai_list = [mirai_scan, mirai_syn, mirai_ack, mirai_udp, mirai_udpplain]
