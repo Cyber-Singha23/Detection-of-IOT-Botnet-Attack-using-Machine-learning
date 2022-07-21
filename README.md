@@ -15,8 +15,7 @@ This project implements a novel method to detect botnet based network intrusion 
 
 This project uses the UCI dataset which involves data of 9 IOT devices. Each data folder of the IoT device has benign (normal) traffic data with mirai & gafgyt (botnet) traffic. This project uses the 'Philips B120N10 Baby Monitor' data to train and test the various models.
 
-Download the data from here: https://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT
-And then store it in the datset folder.
+Download the data from here: https://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT and then store it in the datset folder.
 
 <b> Dependencies </b>
 
